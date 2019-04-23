@@ -1,0 +1,143 @@
+.organization-thumbnail img {
+  width: 64px;
+}
+
+dataset {
+  display: block;
+  border-bottom: 1px #d6d6d6 solid;
+  padding-bottom: 20px;
+}
+
+.list-group-item-truncate {
+  display: inline-block;
+  line-height: 1;
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resource-description {
+  font-size: 90%;
+}
+
+.select2 {
+  margin-bottom: 10px;
+}
+
+.datasets-count {
+  display: inline-block;
+}
+
+.add-dataset-btn {
+  margin-top: 15px;
+}
+
+/* Hidden from guests */
+.user-issue,
+.admin-only {
+  display: none;
+}
+
+.resource-details,
+.show-resource-details {
+  display: none;
+}
+
+.show-resource-details {
+  font-size: 80%;
+}
+
+.user-issue {
+  color: red;
+}
+
+[data-component~=view-switcher] [data-hook~=view] {
+  display: none;
+}
+
+.homepage-categories,
+.theme-gallery {
+  text-align: justify;
+}
+
+/* allows last line of categories to be justify aligned */
+.homepage-categories:after,
+.theme-gallery:after {
+  display: inline-block;
+  width: 100%;
+  content: '';
+}
+
+.homepage-categories .thumbnail {
+  display: inline-block;
+  min-width: 120px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+}
+
+.homepage-categories .thumbnail img {
+  height: 80px;
+}
+
+.homepage-categories a {
+  color: #000;
+}
+
+.theme-gallery .panel {
+  display: inline-block;
+  max-width: 250px;
+  text-align: center;
+}
+
+.theme-gallery .panel img {
+  width: 100%;
+}
+
+.theme-gallery .panel-primary {
+  border-width: 5px;
+}
+
+/* custom additions */
+.jumbotron h1 {
+  text-shadow: #474747 2px 3px 2px;
+}
+
+.jumbotron p {
+  font-weight: bold;
+}
+
+.jumbotron a {
+  box-shadow: rgb(0, 0, 0) 3px 3px 10px 3px;
+}
+
+.jumbotron a:hover {
+  color: #FFFF33;
+}
+
+.homepage-categories .thumbnail:hover {
+  background: #E0E0E0;
+}
+
+.homepage-categories .thumbnail:hover img {
+  height: 100px;
+}
+
+.homepage-categories a:hover {
+  color: #CC0000;
+  font-size: 110%;
+}
+
+.col-sm-4 {
+  font-variant: small-caps;
+}
+
+.col-sm-8 h3 {
+  font-variant: small-caps;
+}
+
+/* references:
+https://htmlcheatsheet.com/css/
+https://www.rapidtables.com/web/color/RGB_Color.html
+*/
