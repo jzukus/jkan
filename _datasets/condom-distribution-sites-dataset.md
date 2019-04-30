@@ -15,7 +15,7 @@ resources:
     format: xml
 license: 'http://www.opendefinition.org/licenses/odc-odbl'
 category:
-  - Health / Human Services
+  - Sexual Health
 maintainer: cocadmin
-maintainer_email: 
+maintainer_email:
 ---

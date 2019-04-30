@@ -15,7 +15,7 @@ resources:
     format: xml
 license: 'http://www.opendefinition.org/licenses/odc-odbl'
 category:
-  - Health / Human Services
+  - Birth / Prenatal
 maintainer: Jamyia
 maintainer_email: epidatarequests@cityofchicago.org
 ---

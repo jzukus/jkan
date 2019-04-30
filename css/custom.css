@@ -1,3 +1,46 @@
+/* custom additions */
+.jumbotron h1 {
+  text-shadow: #474747 2px 3px 2px;
+}
+
+.jumbotron p {
+  font-weight: bold;
+}
+
+.jumbotron a {
+  box-shadow: rgb(0, 0, 0) 3px 3px 10px 3px;
+}
+
+.jumbotron a:hover {
+  color: #FFFF33;
+}
+
+.homepage-categories .thumbnail:hover {
+  background: #E0E0E0;
+}
+
+.homepage-categories .thumbnail:hover img {
+  height: 160px;
+}
+
+.homepage-categories a:hover {
+  color: #CC0000;
+  font-size: 130%;
+}
+
+.col-sm-4 {
+  font-variant: small-caps;
+}
+
+.col-sm-8 h3 {
+  font-variant: small-caps;
+}
+
+/* references:
+https://htmlcheatsheet.com/css/
+https://www.rapidtables.com/web/color/RGB_Color.html
+*/
+
 .organization-thumbnail img {
   width: 64px;
 }
@@ -78,11 +121,12 @@ dataset {
 }
 
 .homepage-categories .thumbnail img {
-  height: 80px;
+  height: 120px;
 }
 
 .homepage-categories a {
   color: #000;
+  font-size: 110%;
 }
 
 .theme-gallery .panel {
@@ -98,46 +142,3 @@ dataset {
 .theme-gallery .panel-primary {
   border-width: 5px;
 }
-
-/* custom additions */
-.jumbotron h1 {
-  text-shadow: #474747 2px 3px 2px;
-}
-
-.jumbotron p {
-  font-weight: bold;
-}
-
-.jumbotron a {
-  box-shadow: rgb(0, 0, 0) 3px 3px 10px 3px;
-}
-
-.jumbotron a:hover {
-  color: #FFFF33;
-}
-
-.homepage-categories .thumbnail:hover {
-  background: #E0E0E0;
-}
-
-.homepage-categories .thumbnail:hover img {
-  height: 100px;
-}
-
-.homepage-categories a:hover {
-  color: #CC0000;
-  font-size: 110%;
-}
-
-.col-sm-4 {
-  font-variant: small-caps;
-}
-
-.col-sm-8 h3 {
-  font-variant: small-caps;
-}
-
-/* references:
-https://htmlcheatsheet.com/css/
-https://www.rapidtables.com/web/color/RGB_Color.html
-*/
